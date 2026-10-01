@@ -52,7 +52,11 @@ Stationary scope excludes aviation (code 10) and maritime (code 50).
 
 ## Repo structure
 ```
-data/raw/    (not included)   data/clean/  ets_fact.csv, dim_country.csv, dim_activity.csv
-src/clean_ets.py              dashboard/   eu-ets-emissions-dashboard.pbix
-images/                       README.md
+## Repo contents
+- `eu-ets-emissions-dashboard.pbix`: the Power BI dashboard
+- `clean_ets.py`: data-cleaning script (pandas)
+- `01-trend.png`, `02-country-comparison.png`, `03-italy-sectors.png`: dashboard screenshots
+- `README.md`: this file
+
+The cleaned tables (`ets_fact`, `dim_country`, `dim_activity`) are embedded in the `.pbix`. To rebuild them, download the raw file from the EEA datahub, place it at `data/raw/ETS_Database_September_2026.xlsx` and run `python clean_ets.py`.
 ```
