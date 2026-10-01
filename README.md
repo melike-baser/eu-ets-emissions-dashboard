@@ -27,7 +27,7 @@ Power BI dashboard on verified emissions and free allocation of allowances under
 - Raw file is not redistributed here; download it from the EEA datahub and place it in `data/raw/`.
 
 ## Method
-`src/clean_ets.py` (pandas):
+`clean_ets.py` (pandas):
 1. Keep yearly rows only (drops trading-period totals).
 2. Keep real countries (drops Innovation Fund, Modernisation Fund, RRF, NER 300).
 3. Keep three metrics: verified emissions, free allocation, surrendered units.
