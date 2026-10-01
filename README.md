@@ -18,9 +18,9 @@ Power BI dashboard on verified emissions and free allocation of allowances under
 | Country Comparison 2024 | Top 10 emitters, EU free-allocation coverage |
 | Italy by Sector | Emissions and free-allocation coverage by activity type, Italy 2024 |
 
-![EU trend](images/01-trend.png)
-![Country comparison](images/02-country-comparison.png)
-![Italy by sector](images/03-italy-sectors.png)
+![EU trend](01-trend.png)
+![Country comparison](02-country-comparison.png)
+![Italy by sector](03-italy-sectors.png)
 
 ## Data
 - Source: EEA, *European Union Emissions Trading System (EU ETS) data from the Union Registry* (EEA datahub). Activity labels from the *EU ETS data viewer background note* (Table 6-1).
